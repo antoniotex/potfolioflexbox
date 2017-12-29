@@ -51,49 +51,40 @@ h3.topo-text {
 	font-weight: bold;
 }
 
-@media screen and (max-width: 1199px){
-	.icones {
-	width: 130px;
-	margin:auto;
-	margin-top: 60px;
+/* Media queries */
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+	h1.topo-text {
+	    font-size: 50px; 
+	    color: red;
+  	}
+  	.btn-custom {
+    	margin: 10px 15px;
+	}
 }
-h1.topo-text {
-	margin-top: 80px;
-	font-size: 70px;
-}
-h3.topo-text {
-	margin-top: 20px;
-	font-size: 25px;
-}
-}
-@media screen and (max-width: 639px){
-	.icones {
-	width: 110px;
-	margin: auto;
-	margin-top: 60px;
-}
-h1.topo-text {
-	margin:auto;
-	font-size: 50px;
+
+/* sm */
+@media screen and (min-width: 768px) {
+    h1.topo-text {
+	    font-size: 70px; 
+	    color: green;
+  	}
 
 }
-h3.topo-text {
-	margin: auto;
-	font-size: 25px;
+
+/* md */
+@media screen and (min-width: 992px) {
+    h1.topo-text {
+	    font-size: 80px; 
+	    color: pink;
+  	}
 }
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    h1.topo-text {
+	    font-size: 100px; 
+	    color: yellow;
+  	}
 }
-@media screen and (max-width: 559px){
-	.icones {
-	width: 90px;
-	margin:auto;
-	margin-top: 70px;
-}
-h1.topo-text {
-	margin-top: 50px;
-	font-size: 50px;
-}
-h3.topo-text {
-	margin-top: 20px;
-	font-size: 25px;
-}
-}
+/* Fim Media queries */
