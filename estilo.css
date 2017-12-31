@@ -15,7 +15,7 @@ html, #topo {
 	flex-wrap: wrap;
 	justify-content: flex-end;
 	align-items: strech;
-	border: 5px solid pink;
+	border: 0px solid pink;
 
 }
 .topo-text:nth-child(1){
@@ -33,7 +33,6 @@ html, #topo {
 	font-weight: bold;
 }
 #cx-icon {
-	border: 1px solid yellow;
 	width: 60%;
 	display: flex;
 	flex-direction: row;
@@ -47,8 +46,8 @@ html, #topo {
 	margin: 0 0px;
 }
 #meio {
-	background: rgba(255,255,255,0.5);
 	width: 100%;
+	background: rgb(255,255,255);
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
@@ -57,22 +56,38 @@ html, #topo {
 
 }
 .description{
-	border: 3px solid yellow;
+	border: 0px solid yellow;
 	width: 80%;
 	margin: 0 auto;
-	color: #fff;
+	color: #000;
 	font-size: 100px;
 }
 .description:nth-child(1){
 	width: 30%;
-	border-radius: 50%;
+	border-radius: 20%;
+	box-shadow: 0px 0px 20px #fff;
+	margin: 10px auto 10px auto;
 }
+.description:nth-child(2){
+
+	background: rgba(255,255,255,0.5);
+}
+#footer{
+	height: 500px;
+	background: rgba(150,150,150,0.3);
+	
+}
+.form {
+
+}
+
+
+
 
 /* Media queries */
 /* xs < 768 */
 @media screen and (max-width: 767px) {
 	.topo-text:nth-child(1) {
-		color: red;
 		font-size: 500%;
 	}
 	.topo-text:nth-child(2){
@@ -83,18 +98,17 @@ html, #topo {
 	margin: 0 0px;
 	}
 	#cx-icon {
-	border: 1px solid yellow;
 	width: 80%;
 	}
-	/*.description:nth-child(1){
-	width: 60%;
-	}*/
+	.description:nth-child(1){
+		width: 60%;
+		border: 3px solid red;
+	}
 }
 
 /* sm */
 @media screen and (min-width: 768px) {
 	.topo-text:nth-child(1) {
-		color: green;
 		font-size: 100px;
 	}
 	.topo-text:nth-child(2){
@@ -104,18 +118,17 @@ html, #topo {
 	width: 80%;
     }
     #cx-icon {
-	border: 1px solid yellow;
 	width: 80%;
 	}
-	/*.description:nth-child(1){
-	width: 50%;
-	}*/
+	.description:nth-child(1){
+		width: 40%;
+		border: 3px solid green;
+	}
 }
 
 /* md */
 @media screen and (min-width: 992px) {
 	.topo-text:nth-child(1) {
-		color: pink;
 		font-size: 100px;
 	}
 	.topo-text:nth-child(2){
@@ -124,12 +137,13 @@ html, #topo {
 	.icones {
 	width: 80%;
 	}
-	#cx-icon {border: 1px solid yellow;
+	#cx-icon {
 	width: 80%;
 	}
-	/*.description:nth-child(1){
-	width: 40%;
-	}*/
+	.description:nth-child(1){
+		width: 35%;
+		border: 3px solid pink;
+	}
 }
 
 /* lg */
@@ -144,8 +158,13 @@ html, #topo {
 	.icones {
 	width: 60%;
 	}
-	#cx-icon {border: 1px solid yellow;
+	#cx-icon {
 	width: 60%;
+	}
+	
+	.description:nth-child(1){
+		width: 30%;
+		border: 3px solid yellow;
 	}
 }
 /* Fim Media queries */
