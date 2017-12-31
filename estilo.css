@@ -77,8 +77,11 @@ html, #topo {
 	background: rgba(150,150,150,0.3);
 	
 }
-.form {
-
+.forma {
+	border: none;
+	border-radius: 50%;
+	box-shadow: none;
+	background: red;
 }
 
 
