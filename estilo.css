@@ -1,4 +1,4 @@
-/* PRIMEIRA PARTE */
+
 body{
 	height: 100%;
 	margin: auto;
@@ -22,14 +22,14 @@ html, #topo {
 	text-align: center;
 	margin-top: 50px;
 	color: #fff;
-	font-size: 100%;
+	font-size: 100px;
 	font-weight: bold;
 }
 .topo-text:nth-child(2){
 	text-align: center;
 	margin-top: 20px;
 	color: #fff;
-	font-size: 100;
+	font-size: 60px;
 	font-weight: bold;
 }
 #cx-icon {
@@ -73,6 +73,10 @@ html, #topo {
 @media screen and (max-width: 767px) {
 	.topo-text:nth-child(1) {
 		color: red;
+		font-size: 500%;
+	}
+	.topo-text:nth-child(2){
+		font-size: 300%;
 	}
 	.icones {
 	width: 70%;
@@ -91,6 +95,10 @@ html, #topo {
 @media screen and (min-width: 768px) {
 	.topo-text:nth-child(1) {
 		color: green;
+		font-size: 100px;
+	}
+	.topo-text:nth-child(2){
+		font-size: 60px;
 	}
 	.icones {
 	width: 80%;
@@ -108,6 +116,10 @@ html, #topo {
 @media screen and (min-width: 992px) {
 	.topo-text:nth-child(1) {
 		color: pink;
+		font-size: 100px;
+	}
+	.topo-text:nth-child(2){
+		font-size: 60px;
 	}
 	.icones {
 	width: 80%;
@@ -123,7 +135,11 @@ html, #topo {
 /* lg */
 @media screen and (min-width: 1200px) {
 	.topo-text:nth-child(1) {
-		color: blue;
+		color: #fff;
+		font-size: 100px;
+	}
+	.topo-text:nth-child(2){
+		font-size: 60px;
 	}
 	.icones {
 	width: 60%;
